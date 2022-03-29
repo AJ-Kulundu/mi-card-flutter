@@ -6,23 +6,29 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Container(
-                color: Colors.red,
-                height: double.infinity,
-                width: 100.0,
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/cp_2.png'),
               ),
-              Container(
-                color: Colors.yellow,
-                height: 100.0,
-                width: 100.0,
+              Text(
+                'Arnold Kulundu',
+                style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 40.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold),
               ),
-              Container(
-                color: Colors.blue,
-                height: double.infinity,
-                width: 100.0,
+              Text(
+                'flutter Developer'.toUpperCase(),
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  fontSize: 20.0,
+                  color: Colors.teal.shade100,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
