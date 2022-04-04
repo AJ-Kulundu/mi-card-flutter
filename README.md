@@ -21,6 +21,17 @@ Mi Card is a personal business card. Imagine every time you wanted to give someo
 * How to style Text widgets
 * How to read and use Flutter Documentation
 
+## TODO
+
+- [x] How to create Stateless Widgets
+- [x] What is the difference between hot reload and hot refresh and running an app from cold
+- [x] How to use Containers to lay out your UI
+- [x] How to use Columns and Rows to position your UI elements
+- [x] How to add custom fonts
+- [x] How to add Material icons
+- [x] How to style Text widgets
+- [x] How to read and use Flutter Documentation
+- [x] Competed module project
 
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
