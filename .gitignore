@@ -2,3 +2,6 @@ build
 .dart_tool
 .packages
 pubspec.lock
+android
+ios
+launch.json
